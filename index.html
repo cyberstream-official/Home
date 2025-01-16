@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberStream Official</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #aaa;
+            margin-top: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            background: rgba(20, 20, 30, 0.9);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: transform 0.3s, text-shadow 0.3s;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+            margin-bottom: 20px;
+        }
+
+        .content iframe {
+            border: none;
+            box-shadow: 0 4px 20px rgba(0, 255, 204, 0.8);
+            border-radius: 10px;
+        }
+
+        .content p {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #aaa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #aaa;
+        }
+
+        footer a {
+            color: #00ffcc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        /* Add a 3D hover effect for all links */
+        a {
+            display: inline-block;
+            position: relative;
+        }
+
+        a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.1);
+            transform: scale(0);
+            transition: transform 0.3s;
+            border-radius: 5px;
+        }
+
+        a:hover::before {
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CyberStream Official</h1>
+        <p>Explore the world of programming, cybersecurity, and ethical hacking!</p>
+    </header>
+    <nav>
+        <a href="#videos">Videos</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content" id="videos">
+        <h2>Latest Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=cyberstream_official" allowfullscreen></iframe>
+        <p>Discover our latest tutorials and tech updates
